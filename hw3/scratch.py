@@ -1,0 +1,9 @@
+z=pow(826004485,19,10**12+39)
+num=10**12+39
+power=(num-1)/26005097
+power=int(power)
+a=pow(3,power,num)
+print(pow(z,power,num))
+print(pow(a,22514905,num))
+print((num-1)/26005097)
+print((26005097%38454))
